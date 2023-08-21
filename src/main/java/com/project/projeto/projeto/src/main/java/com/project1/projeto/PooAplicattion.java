@@ -9,16 +9,9 @@ public class PooAplicattion {
 	public static void main(String[] args) {
 		SpringApplication.run(PooAplicattion.class, args);
 
-		Veiculos carroRayane= new Veiculos();
-		carroRayane.proprietario = "Rayane";
-		carroRayane.renavam = "1245545";
-		carroRayane.marca = "Ford";
-		carroRayane.modelo ="Ford Ka";
-		carroRayane.ano = 2019;
-		carroRayane.cor = "preto";
-		carroRayane.km = 4665.657;
+		Aluno aluno = new Aluno();
 
-		System.out.println(carroRayane.proprietario);
+		System.out.println("Parabèns aluno: "+aluno.getNome()+" seu ano de nascimento é: "+aluno.getAnoNasc()+ " e sua matrícula é: "+aluno.getMatricula()+" .\n ");
 	}
 
 }
